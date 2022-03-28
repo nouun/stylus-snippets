@@ -7,4 +7,4 @@ like credit for the original code, open an issue or PR.
 
 ** Snippets
 
-*** [[./edit-time-stamps.styl][Edit Timestamps]]
+*** [[./snippets/edit-time-stamps.less][Edit Timestamps]]
