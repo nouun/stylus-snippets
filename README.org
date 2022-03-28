@@ -8,6 +8,13 @@ issue or PR.
 
 ** Snippets
 
-*** [[./snippets/discord/show-edit-timestamps.user.css][Edit Timestamps]]
+*** Discord
+
+**** [[./snippets/discord/show-edit-timestamps.user.css][Edit Timestamps]]
 
 Show edit timestamps next to the message, replaces "(edited)"
+
+**** [[./snippets/discord/hide-gif-sticker.user.css][Hide Gif & Sticker]]
+
+Hide gif and sticker buttons until hovered
+
