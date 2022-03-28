@@ -1,0 +1,62 @@
+/* ==UserStyle==
+@name         Discord - Smol Member List
+@namespace    https://github.com/nouun/stylus-snippets
+@version      220329
+@description  Collapse member list to only show profile pictures until hover
+@author       nouun <me@nouun.dev>
+@license      MIT
+@preprocessor less
+==/UserStyle== */
+
+@-moz-document domain("discord.com") {
+    .membersWrap-3NUR2t {
+	@hover-animation-speed: 0.35s;
+	min-width: unset;
+	width: 50px;
+	justify-content: right;
+	z-index: 2;
+	
+	.members-3WRCEx {
+	    transition: transform @hover-animation-speed;
+	    transform: translateX(188px);
+	    
+	    .member-3-YXUe {
+		background-color: unset;
+		margin-left: 0px;
+		transition: margin-left @hover-animation-speed;
+	    }
+	}
+	
+	.membersGroup-v9BXpm {
+	    cursor: default;
+	    transform: translateX(45px);
+	    transition: transform @hover-animation-speed;
+	    overflow: visible;
+	}
+	
+	.membersGroup-2eiWxl {
+	    transition: height  @hover-animation-speed,
+			padding @hover-animation-speed;
+	}
+	
+	.member-2gU6Ar {
+	    transform: translateX(-7px);
+	}
+	
+	&:hover {
+	    .members-3WRCEx,
+	    .member-2gU6Ar {
+		transform: translateX(0px);
+		
+		.member-3-YXUe {
+		    margin-left: 8px;
+		}
+	    }
+	}
+	
+	&:not(:hover) .membersGroup-2eiWxl {
+	    height: 0;
+	    padding: 0;
+	}
+    }
+}

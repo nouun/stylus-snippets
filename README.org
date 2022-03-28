@@ -8,13 +8,26 @@ issue or PR.
 
 ** Snippets
 
-*** Discord
+*** [[https://discord.com][Discord]]
+
+Several of these snippets came from the css-snippets channel in the
+[[https://discord.gg/powercord][Powercord]] server.
 
 **** [[./snippets/discord/show-edit-timestamps.user.css][Edit Timestamps]]
 
 Show edit timestamps next to the message, replaces "(edited)"
 
+
 **** [[./snippets/discord/hide-gif-sticker.user.css][Hide Gif & Sticker]]
 
 Hide gif and sticker buttons until hovered
 
+
+**** [[./snippets/discord/jump-to-present-pill.user.css][Jump to Present Pill]]
+
+Fancy Jump to Present pill which expands on hover
+
+
+**** [[./snippets/discord/smol-member-list.user.css][Smol Member List]]
+
+Collapse member list to only show profile pictures until hover
