@@ -1,10 +1,13 @@
-* Discord Stylus Snippets
+* Stylus Snippets
 
-A collection of Discord snippets in Stylus that either I
-have created or found online and transliterated into Stylus.
-Sources are unknown, if you recongnise a snippet and would
-like credit for the original code, open an issue or PR.
+A collection of snippets in [[https://github.com/openstyles/stylus][Stylus]] that either I have
+created or found online and transliterated into Less for
+Stylus. Sources are unknown, if you recongnise a snippet
+and would like credit for the original code, open an
+issue or PR.
 
 ** Snippets
 
-*** [[./snippets/edit-time-stamps.less][Edit Timestamps]]
+*** [[./snippets/discord/show-edit-timestamps.user.css][Edit Timestamps]]
+
+Show edit timestamps next to the message, replaces "(edited)"
