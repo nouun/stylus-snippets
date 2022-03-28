@@ -1,0 +1,47 @@
+/* ==UserStyle==
+@name         Discord - IRC Compact Mode
+@namespace    https://github.com/nouun/stylus-snippets
+@version      220329
+@description  Align compact mode names like in IRC
+@author       nouun <me@nouun.dev>
+@license      MIT
+@preprocessor less
+==/UserStyle== */
+
+@-moz-document domain("discord.com") {
+    [class*="compact-"] {
+	[class*="contents-"] {
+	    display: flex;
+	    
+	    [class*="header-"] {
+		display: inline-flex;
+		width: 150px;
+		margin-left: -5rem;
+		flex-shrink: 0;
+		text-indent: 0;
+	    }
+	}
+        
+	[id*="message-username-"] {
+	    flex: 1 1 0;
+	    white-space: nowrap;
+	    margin-inline: .4em !important;
+	    display: flex;
+	    text-align: right;
+	    
+	    [class*="username-"] {
+		width: 0;
+		flex-grow: 1;
+		text-overflow: ellipsis;
+	    }
+	}
+	
+	&:not(:hover) [class*="timestampVisibleOnHover-"] {
+	    display: none;
+	}
+	
+	[id*="message-accessories-"] {
+            margin-left: 70px;
+	}
+    }
+}

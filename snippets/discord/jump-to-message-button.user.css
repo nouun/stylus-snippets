@@ -1,0 +1,37 @@
+/* ==UserStyle==
+@name         Discord - Jump to Message Button
+@namespace    https://github.com/nouun/stylus-snippets
+@version      220329
+@description  Replaces Discord message links with "✉ Jump to Message"
+@author       nouun <me@nouun.dev>
+@license      MIT
+@preprocessor less
+==/UserStyle== */
+
+@-moz-document domain("discord.com") {
+    [title^="https://discord.com/channels/"],
+    [title^="https://ptb.discord.com/channels/"],
+    [title^="https://canary.discord.com/channels/"] {
+	line-height: 0;
+	font-size: 0;
+	text-decoration-color: #fff !important;
+	
+	&::before {
+	    content: "✉ Jump to Message";
+	    font-size: 16px;
+	    user-select: text;
+	    font-weight: 500;
+	    transition: background-color 50ms ease-out, color 50ms ease-out;
+	    cursor: pointer;
+	    border-radius: 3px;
+	    padding: 0 2px;
+	    background: var(--brand-experiment-15a);
+	    color: var(--brand-experiment-530);
+	}
+	
+	&:hover::before {
+	    background-color: var(--brand-experiment);
+	    color: #fff;
+	}
+    }
+}

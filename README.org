@@ -31,3 +31,18 @@ Fancy Jump to Present pill which expands on hover
 **** [[./snippets/discord/smol-member-list.user.css][Smol Member List]]
 
 Collapse member list to only show profile pictures until hover
+
+
+**** [[./snippets/discord/hide-sidebar.user.css][Hide Sidebar]]
+
+Hide sidebar util hover guild name
+
+
+**** [[./snippets/discord/jump-to-message-button.user.css][Jump to Message Button]]
+
+Replaces Discord message links with "✉ Jump to Message"
+
+
+**** [[./snippets/discord/irc-compact-mode.user.css][IRC Compact Mode]]
+
+Align compact mode names like in IRC
