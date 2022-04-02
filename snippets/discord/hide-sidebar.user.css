@@ -30,7 +30,7 @@
 	    transition-delay: 150ms;
 	    
 	    [aria-controls*="popout_"] {
-		z-index: 50;
+		z-index: 3;
 	    }
 	    
 	    [class*="modeUnread-"]::after {
@@ -43,6 +43,10 @@
 		height: 8px;
 		background-color: var(--interactive-active);
 		transition: transform 100ms ease-out 350ms;
+	    }
+
+	    nav {
+		z-index: 3;
 	    }
 	    
 	    &:hover {
@@ -61,7 +65,7 @@
 		top: 0px;
 		width: 240px;
 		height: 48px;
-		z-index: 30;
+		z-index: 2;
 	    }
 	}
     }

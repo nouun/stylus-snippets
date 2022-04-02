@@ -1,6 +1,6 @@
 * Stylus Snippets
 
-A collection of snippets in [[https://github.com/openstyles/stylus][Stylus]] that either I have
+A collection of snippets for [[https://github.com/openstyles/stylus][Stylus]] that either I have
 created or found online and transliterated into Less for
 Stylus. Sources are unknown, if you recongnise a snippet
 and would like credit for the original code, open an
