@@ -46,3 +46,8 @@ Replaces Discord message links with "✉ Jump to Message"
 **** [[./snippets/discord/irc-compact-mode.user.css][IRC Compact Mode]]
 
 Align compact mode names like in IRC
+
+
+**** [[./snippets/discord/hide-blocked.user.css][Hide Blocked]]
+
+Properly hide messages from blocked users

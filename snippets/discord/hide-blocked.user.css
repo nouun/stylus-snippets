@@ -1,0 +1,19 @@
+/* ==UserStyle==
+@name         Discord - Hide Blocked
+@namespace    https://github.com/nouun/stylus-snippets
+@version      220410
+@description  Properly hide messages from blocked users
+@author       nouun <me@nouun.dev>
+@license      MIT
+@preprocessor less
+==/UserStyle== */
+
+@-moz-document domain("discord.com") {
+    [class|="blockedSystemMessage"] {
+        &, & > div {
+            margin: 0 !important;
+            max-height: 0 !important;
+            opacity: 0 !important;
+        }
+    }
+}
